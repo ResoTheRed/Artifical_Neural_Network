@@ -1,0 +1,78 @@
+Genetic Algorithm Stats
+Population Size: 500
+Generation Limit: 25
+Mutation rate: 300
+Crossover rate: 400
+Elite Rollover rate: 50
+Layers: [4, 3, 3, 3, 3]
+
+Results of 10 Fold Cross Validation Using Genetic Algorithm
+Fold: 1
+	Training MSE: 0.170444
+	Testing MSE: 0.229817
+	Average MSE:  0.2001305
+Fold: 2
+	Training MSE: 0.207967
+	Testing MSE: 0.175004
+	Average MSE:  0.1914855
+Fold: 3
+	Training MSE: 0.211898
+	Testing MSE: 0.260982
+	Average MSE:  0.23643999999999998
+Fold: 4
+	Training MSE: 0.19975
+	Testing MSE: 0.230876
+	Average MSE:  0.215313
+Fold: 5
+	Training MSE: 0.191935
+	Testing MSE: 0.310763
+	Average MSE:  0.251349
+Fold: 6
+	Training MSE: 0.220011
+	Testing MSE: 0.271129
+	Average MSE:  0.24557
+Fold: 7
+	Training MSE: 0.223615
+	Testing MSE: 0.230607
+	Average MSE:  0.227111
+Fold: 8
+	Training MSE: 0.230747
+	Testing MSE: 0.261007
+	Average MSE:  0.245877
+Fold: 9
+	Training MSE: 0.232049
+	Testing MSE: 0.296593
+	Average MSE:  0.26432100000000003
+Fold: 10
+	Training MSE: 0.22047
+	Testing MSE: 0.265943
+	Average MSE:  0.2432065
+
+Best Scoring Beta (mse avg: 0.1914855)
+
+Beta[0] = [
+	[[ 0.      0.8388 -2.0487]]
+	[[0.6747 2.4766 0.6063]]
+	[[ 2.4026 -0.2618 -0.4096]]
+	[[1.8767 0.9588 1.1226]]
+	[[-3.6511  0.     -3.9618]]
+]
+Beta[1] = [
+	[[-2.5119  0.8383 -0.3236]]
+	[[-2.4996  3.3606 -0.7897]]
+	[[-1.5143  1.8553  1.754 ]]
+	[[ 1.5933  1.5451 -0.6417]]
+]
+Beta[2] = [
+	[[0.     0.0872 0.179 ]]
+	[[-0.2664 -3.7822 -4.9943]]
+	[[ 0.0592 -1.6746 -0.2119]]
+	[[-5.3442  0.1995  1.3978]]
+]
+Beta[3] = [
+	[[ 0.894  -0.4031 -0.9307]]
+	[[-0.0657 -1.3834 -0.626 ]]
+	[[-0.2398  4.2192 -1.1227]]
+	[[ 0.      1.804  -0.2696]]
+]
+
